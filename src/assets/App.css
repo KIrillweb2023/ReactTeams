@@ -1,0 +1,38 @@
+*{
+    font-family: "Gilroy", sans-serif;
+    padding: 0;
+    margin: 0;
+
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('./assets/fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Gilroy-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Bold');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('./assets/fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('./assets/fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+    
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Medium');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('./assets/fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
