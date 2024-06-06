@@ -1,0 +1,34 @@
+.main{
+    &__wrapper{
+        &_level{
+            padding: 0 28px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 8px;
+            &-text{
+                display: flex;
+                justify-content: space-between;
+                &-leveling{
+                    color: #fff;
+                    font-weight: 600;
+                }
+                &-coin{
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+            &-scale{
+                width: 100%;
+                height: 12px;
+                border-radius: 20px;
+                background-color: #ffffff5d;
+                &-child{
+                    width: 20%;
+                    height: 12px;
+                    border-radius: 20px;
+                    background-color: #ff7f17;
+                }
+            }
+        }
+    }
+}

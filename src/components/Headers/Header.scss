@@ -1,0 +1,37 @@
+.main{
+    &__wrapper{
+        &_header{
+            list-style: none;
+            display: flex;
+            column-gap: 10px;
+            justify-content: center;
+            padding: 20px 0;
+            &-item{
+                background-color: #d67eff71;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 140px;
+                height: 70px;
+                border-radius: 10px;
+                row-gap: 10px;
+                &-text{
+                    color: rgb(255, 255, 255);
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+                &-count{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 5px;
+                    .item-text-coin{
+                        font-weight: 600;
+                        color: white;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

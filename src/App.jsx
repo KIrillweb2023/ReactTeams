@@ -1,10 +1,14 @@
 import { useState } from 'react';
 import './assets/App.css';
 
+import { Main } from './components/Main/Main';
+
 function App() {
     return (
         <>
-            <div>123</div>
+            <section className='main'>
+                <Main/>
+            </section>
         </>
     )
 }

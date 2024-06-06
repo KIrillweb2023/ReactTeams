@@ -1,0 +1,15 @@
+.main{
+    background: url("/main-bg.webp") center (center / cover) no-repeat;
+    height: 100vh;
+    position: relative;
+    &__wrapper{
+        width: 500px;
+        height: 98vh;
+        background: rgba(27, 27, 27, 0.7);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+    }
+}
