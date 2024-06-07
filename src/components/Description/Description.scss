@@ -1,0 +1,25 @@
+.main{
+    &__wrapper{
+        &_descr{
+            padding: 0 28px;
+            margin-top: 30px;
+            &-title{
+                font-size: 22px;
+                color: #fff;
+                font-weight: 500;
+            }
+            &-list{
+                padding-left: 25px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                margin-top: 10px;
+                &-item{
+                    color: #838383;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
